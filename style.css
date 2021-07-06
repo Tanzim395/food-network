@@ -5,16 +5,20 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 30px;
+}
 .orange-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 60px;
 }
 .half-width{
     width: 50%;
     padding-left: 8%;
+    box-shadow: honeydew;
 }
 .half-width img{
     width: 65%;
@@ -34,4 +38,25 @@ section{
 .Food-Specialist{
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
+}
+.my-recipies-area{
+    text-align: center;
+}
+#recipe{
+  text-align: center;
+}
+.food-division{
+    width: 50%;
+    padding-left: 8%;
+}
+.header{
+    align-items: center;
+    font-family: sans-serif;
+    justify-content: center;
+}
+footer h2{
+    text-align: center;
+}
+footer p{
+    text-align: center;
 }
